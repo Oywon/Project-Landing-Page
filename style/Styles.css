@@ -59,13 +59,19 @@ a{
     align-items: center;
     justify-content: center;
     padding: 90px;
-justify-content: space-between;
+    justify-content: space-between;
 }
 .boat img
 {
-    width: 700px;
+    width: 500px;
     height: 300px;
 }
+@media only screen and (max-width: 800px) {
+    .txtimg
+    {
+        flex-direction: column;
+    }
+  }
 .txtimg div h1 {
     font-size: 48px ;
     font-weight: bolder;
@@ -77,6 +83,7 @@ justify-content: space-between;
     font-size: 18px;
     color: #F9FAF8;
     text-align: left;
+    margin-right: 20px;
     
 }
 .txtimg div button{

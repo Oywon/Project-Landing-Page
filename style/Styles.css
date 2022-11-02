@@ -1,0 +1,222 @@
+
+body {
+
+    text-align: center;
+    margin: 0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+a{
+    text-decoration: none;
+    color: #f9faf8e7;
+}
+
+.backgound{
+    background-image: url('../imgs/vikingboat.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.maincontainer
+{
+    display:flex;
+    flex-direction: column;
+}
+
+
+    .nav-container{
+        display: flex;
+        color: #F9FAF8;
+        background-color: #1F2937;
+        align-items: center;
+        padding: 20px 0px 20px 100px;
+
+
+    }
+
+        .leftNav{
+            font-size: 24px;
+            align-items: center;
+
+        }
+        .rightNav {
+        display: flex;
+        margin-left: auto;
+        padding-right: 100px;
+
+        }
+        .rightNav a{
+            text-decoration: none; 
+            color: #E5E7EB;
+            font-size: 18px;
+            padding: 10px;
+        }
+
+.txtimg{
+    display: flex;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+justify-content: space-between;
+}
+.boat img
+{
+    width: 700px;
+    height: 300px;
+}
+.txtimg div h1 {
+    font-size: 48px ;
+    font-weight: bolder;
+    color: #F9FAF8;
+    text-align: left;
+    
+}
+.txtimg div p{
+    font-size: 18px;
+    color: #F9FAF8;
+    text-align: left;
+    
+}
+.txtimg div button{
+    font-size: 18px;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 7px;
+    margin: 10px;
+
+}
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+
+.imgSection {
+    
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+    justify-content: center;
+}
+.imgSection img{
+    width: 160px;
+    height: 160px;
+    border-radius: 10px;
+    border-color: #000000;
+    border-style: solid;
+    border-width: 4px;
+}
+.imgSection .infoTitle {
+    text-align: center;
+    font-weight: 900;
+    font-size: 24px;
+
+}
+
+.forimgs{
+    display: flex;
+    font-size: 18PX;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.forimgs p{
+    text-align: center;
+    width: 160px;
+}
+
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+
+.quotSection {
+    display: flex;
+    padding: 60px;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.quot
+{
+    
+    font-size: 30px;
+    font-style:italic;
+    color: #6b727c;
+}
+.quoter{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: right;
+    align-self: flex-end;
+}
+
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+
+.signupSection {
+    padding: 70px;
+    display: flex;
+    color: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+}
+
+.calltxtnbutton{
+
+    display: flex;
+    border-radius: 12px;
+    background-color: #3882f6;
+    padding: 20px 90px;
+    flex-direction: row;
+}
+.calltxt{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 10px 50px 10px 4px;
+    margin: 0px;
+    
+}
+.signupSection .title{
+    font-size: 24px;
+    margin-bottom: 0px;
+    padding: 5px 20px 0px 0px;
+}
+
+
+.callbutton{
+    border-style: solid;
+    background-color: #3882f6;
+    color: #E5E7EB;
+    border-color: #E5E7EB;
+    border-radius: 10px;
+    align-self: center;
+    padding: 5px 30px 5px 30px;
+    margin: 0px;
+
+}
+
+
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+
+.fotterSection {
+    padding: 30px;
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #E5E7EB;
+    display :flex ;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
